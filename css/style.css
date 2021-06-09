@@ -1,0 +1,108 @@
+/*
+Theme Name: Online Admission.
+Theme URI: http://.../
+Description: Adminssion Form.
+Author: AL-AMIN
+Author URI: http://facebook.com/alaminbosscseru09/
+version: 1.0
+*/
+
+body{
+	background: #e3e3e3;
+}
+
+.new-container {
+	max-width: 960px;
+}
+h1{
+	margin-left: 100px;
+	font-family: Times New Roman;
+}
+
+h2{
+	margin-left: 300px;
+	font-family: Lucida Console;	
+}
+.people{
+	border: 1px solid #E0C5C5;
+	width: 200px;
+	height: 180px;
+}
+
+.search-box input[type="text"]{
+	background: url(../images/search-dark.png) no-repeat 10px 10px;
+	border: 0 none;
+	color: #000;
+	width: 150px;
+	padding: 6px 15px 6px 35px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	border-radius: 20px;
+	text-shadow:0 2px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.8), 0 2px 3px 2px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.8), 0 2px 3px 2px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.8), 0 2px 3px 2px rgba(0, 0, 0, 0.2) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+}
+
+.search-box input[type="text"]:focus{
+	width:350px;
+	background: url(../images/search-white.png) no-repeat 10px 10px;
+}
+
+.footer{
+	background: #E9EAEA;
+    height: 30px;
+    margin-top: -20px;
+    color: black;
+    padding: 5px;
+}
+
+.form-header-list li{
+	margin-right: 6px;
+}
+
+/*************************
+ * jsc_info page
+ *************************/
+ul.pass{
+	margin-top: -20px;
+}
+
+#registered{
+	border: 2px solid #bdbdbd;
+    height: 400px;
+    padding: 10px 10px 10px 10px;
+    font-size: 12px;
+    font-family: monospace;
+}
+
+.elective-subs, 
+.optional-subs{
+	font-size: 12px;
+    font-family: monospace;	
+}
+
+#typer, p{
+	font-family: monospace;
+}
+
+.applicant_name a{
+	width:125px;
+	height:20px;
+	padding-left:50px; 
+}
+
+.applicant_name a:hover{
+	text-decoration: none;
+}
+
+
+
+#preview p img{
+	width:150px;
+	height: 150px;
+}
